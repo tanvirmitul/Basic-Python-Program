@@ -1,0 +1,11 @@
+sub=["c","c++","java","python","java"]
+sub2=sub.copy()
+sub.append("mitul")
+sub.sort()
+print(sub)
+print(len(sub))
+print(sub2)
+# pos=sub.index("java")
+# print(pos)
+print(sub.index("java"))
+print(sub.count("bell"))
